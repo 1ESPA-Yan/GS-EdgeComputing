@@ -80,29 +80,29 @@ Este projeto implementa um sistema completo de monitoramento para profissionais 
 
 ### Circuito no Wokwi
 
+![Vista Geral](imgs/projetoVistaGeral.png).
 *Vista geral do circuito montado no Wokwi - inclui Arduino Uno, sensores LDR e HC-SR04, display LCD, LEDs de status e botão de controle*
 
 ### Sistema em Funcionamento
 
 **Estado Ouro - Ambiente Ideal**
 
+![Estado Ouro](imgs/estadoOuro.png).
 *Sistema em estado Ouro - Luminosidade e postura dentro dos parâmetros ideais (LED verde ativo)*
 
 ---
 
 **Estado Prata - Atenção**
 
+![Estado Prata](imgs/estadoPrata.png).
 *Sistema em estado Prata - Um ou mais parâmetros necessitam ajuste (LED amarelo ativo)*
 
 ---
 
 **Estado Bronze - Alerta**
 
+![Estado Bronze](imgs/estadoBronze.png).
 *Sistema em estado Bronze - Parâmetros críticos, ajuste urgente necessário (LED vermelho ativo)*
-
-### Serial Monitor
-
-*Serial Monitor exibindo logs em tempo real com classificações de luminosidade, distância e status final do ambiente*
 
 ## 📐 Diagrama de Conexões
 
